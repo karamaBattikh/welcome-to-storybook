@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@babel/core": "7.4.3",
+    "@babel/core": "^7.5.5",
     "@babel/plugin-transform-react-jsx-self": "^7.2.0",
     "@babel/plugin-transform-react-jsx-source": "^7.5.0",
     "@svgr/webpack": "4.1.0",
@@ -64,7 +64,8 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "test": "node scripts/test.js"
+    "test": "node scripts/test.js",
+    "storybook": "start-storybook -s public -p 9001 -c .storybook"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -132,6 +133,7 @@
     ]
   },
   "devDependencies": {
+    "@storybook/react": "^5.1.10",
     "eslint-config-airbnb": "^17.1.1"
   }
 }
