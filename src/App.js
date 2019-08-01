@@ -1,12 +1,9 @@
 import React from 'react';
+import HeaderComponent from './Components/Header';
 
 const App = () => (
   <div>
-    <a
-      href="https://reactjs.org"
-    >
-      {'Learn React'}
-    </a>
+    <HeaderComponent />
   </div>
 );
 
