@@ -64,7 +64,8 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "test": "node scripts/test.js"
+    "test": "node scripts/test.js",
+    "storybook": "start-storybook -s public -p 9001 -c .storybook"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -132,6 +133,7 @@
     ]
   },
   "devDependencies": {
+    "@storybook/react": "^5.1.10",
     "eslint-config-airbnb": "^17.1.1"
   }
 }
