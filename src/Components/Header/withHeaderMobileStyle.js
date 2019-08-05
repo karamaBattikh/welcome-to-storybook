@@ -15,14 +15,11 @@ export default (Component) => styled(Component)`
         .menu {
             position: absolute; 
             top: 40%;
-            /* position: relative; */
             .first-bar,
             .second-bar,
             .thrid-bar {
                 width: 17px;
-                /* position: absolute; */
                 height: 3px;
-                /* border-radius: 2px; */
                 background-color: #737373;
                 margin-bottom: 5px;
             }
