@@ -12,7 +12,7 @@ const DeliveryComponent = ({ className }) => (
 );
 
 DeliveryComponent.propTypes = {
-  className: PropTypes.object,
+  className: PropTypes.string,
 };
 
 export default withDeliveryStyle(DeliveryComponent);
