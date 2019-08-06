@@ -38,6 +38,6 @@ const ListOfDailyDeals = ({ className }) => (
 );
 
 ListOfDailyDeals.propTypes = {
-  className: PropTypes.object,
+  className: PropTypes.string,
 };
 export default withDailyDealsStyle(ListOfDailyDeals);

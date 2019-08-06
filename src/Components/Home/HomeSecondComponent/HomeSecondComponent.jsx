@@ -45,7 +45,7 @@ const HomeSecondComponent = ({ className }) => (
 );
 
 HomeSecondComponent.propTypes = {
-  className: PropTypes.object,
+  className: PropTypes.string,
 };
 
 export default withSecondComponentStyle(HomeSecondComponent);

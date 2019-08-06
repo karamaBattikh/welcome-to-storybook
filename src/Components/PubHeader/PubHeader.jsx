@@ -19,7 +19,7 @@ const PubHeader = ({ className, dataOfPubHeader }) => (
 
 PubHeader.propTypes = {
   className: PropTypes.string,
-  dataOfPubHeader: PropTypes.object,
+  dataOfPubHeader: PropTypes.array,
 };
 
 export default withPubHeaderStyle(PubHeader);
